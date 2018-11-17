@@ -42,7 +42,7 @@ def apply_coupons(cart, coupons)
     new_cart[new_str] = {:price => temp_cost,
        :clearance => temp_clearance, :count => temp_count}
   end
-  binding.pry   
+  binding.pry
   new_cart
 end
 
